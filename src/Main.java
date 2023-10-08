@@ -69,6 +69,41 @@ public class Main {
 
         System.out.println(" ");
 
+        int minWeightLost = 250;
+        int maxWeightLost = 500;
+        int totalLost = 7000;
+        int maxDays = totalLost / minWeightLost;
+        int minDays = totalLost / maxWeightLost;
+        int middleDays = totalLost / ((minWeightLost + maxWeightLost) / 2);
+        System.out.println("Если спортсмен будет терять каждый день по " + minWeightLost + " грамм, ему потребуется " + maxDays + " дней");
+        System.out.println("Если спортсмен будет терять каждый день по " + maxWeightLost + " грамм, ему потребуется " + minDays + " дней");
+        System.out.println("В среднем спортсмену потребуется " + middleDays + " дней"); // задача 7
+
+        System.out.println(" ");
+
+        double masha1 = 67760;
+        double denis1 = 83690;
+        double kristina1 = 76230;
+        double masha2 = masha1 * 1.1;
+        double denis2 = denis1 * 1.1;
+        double kristina2 = kristina1 * 1.1;
+        double mashaYear1 = masha1 * 12;
+        double denisYear1 = denis1 * 12;
+        double kristinaYear1 = kristina1 * 12;
+        double mashaYear2 = masha2 * 12;
+        double denisYear2 = denis2 * 12;
+        double kristinaYear2 = kristina2 * 12;
+        System.out.println("Маша теперь получает " + masha2 + " рублей. Годовой доход вырос на " + (mashaYear2 - mashaYear1) + " рублей");
+        System.out.println("Денис теперь получает " + denis2 + " рублей. Годовой доход вырос на " + (denisYear2 - denisYear1) + " рублей");
+        System.out.println("Кристина теперь получает " + kristina2 + " рублей. Годовой доход вырос на " + (kristinaYear2 - kristinaYear1) + " рублей");  //задача 8
+        System.out.println(" ");
+
+
+
+
+
+
+
 
 
 
